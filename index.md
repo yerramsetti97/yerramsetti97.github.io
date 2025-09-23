@@ -1,6 +1,6 @@
 # Venkata Sai Teja Yerramsetti
 **Full-Stack & AI Engineer** — React · Java/Spring Boot · Node.js · AWS · Kubernetes · LLMs  
-Chicago, IL · [Email](mailto:venkatasaitejayerramsetti@gmail.com) · [LinkedIn](https://www.linkedin.com/in/venkata-sai-teja-yerramsetti-595511172/) · [GitHub](https://github.com/yerramsetti97) · [Download Resume](VENKATA SAI TEJA YERRAMSETTI - RESUME.pdf)
+Chicago, IL · [Email](mailto:venkatasaitejayerramsetti@gmail.com) · [LinkedIn](https://www.linkedin.com/in/venkata-sai-teja-yerramsetti-595511172/) · [GitHub](https://github.com/yerramsetti97) · [Download Resume](Venkata_Sai_Teja_Yerramsetti_Resume.pdf)
 
 ---
 
