@@ -1,4 +1,6 @@
 title: Venkata Sai Teja Yerramsetti
-description: Full-Stack & AI Engineer · React · Java · Node.js · AWS · Kubernetes · LLMs
-theme: jekyll-theme-minimal
-show_downloads: true
+description: Full-Stack & AI Engineer · React · Java/Spring Boot · Node.js · AWS · Kubernetes · LLMs
+theme: jekyll-theme-cayman
+
+# Disable showing GitHub repo links
+show_downloads: false
