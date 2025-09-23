@@ -1,6 +1,31 @@
+# — Site basics —
 title: Venkata Sai Teja Yerramsetti
-description: Full-Stack & AI Engineer · React · Java/Spring Boot · Node.js · AWS · Kubernetes · LLMs
-theme: jekyll-theme-cayman
+url: https://yerramsetti97.github.io
+baseurl: ""        # keep empty for user site (username.github.io)
 
-# Disable showing GitHub repo links
-show_downloads: false
+# — Theme & look —
+theme: minima
+minima:
+  skin: dark       # options: auto, classic, dark, solarized, solarized-dark
+  social_links:
+    - platform: github
+      user_url: https://github.com/yerramsetti97
+    - platform: linkedin
+      user_url: https://www.linkedin.com/in/venkata-sai-teja-yerramsetti-595511172/
+  # Show nav links in the header
+  header_pages:
+    - index.md     # your single-page portfolio
+    # add more pages later if you create them (e.g., projects.md, blog.md)
+
+# — Plugins (all allowed on GitHub Pages) —
+plugins:
+  - jekyll-seo-tag   # better metadata for search/preview cards
+  - jekyll-sitemap   # sitemap.xml for indexing
+  - jekyll-feed      # rss feed (harmless even if you don’t blog)
+
+# — Build options —
+markdown: kramdown
+highlighter: rouge
+
+# — Footer credits —
+show_excerpts: false
