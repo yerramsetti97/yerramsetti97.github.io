@@ -1,4 +1,2 @@
 title: Venkata Sai Teja Yerramsetti
-theme: minima
-minima:
-  skin: solarized    # try: auto, classic, dark, solarized, solarized-dark
+theme: jekyll-theme-cayman
