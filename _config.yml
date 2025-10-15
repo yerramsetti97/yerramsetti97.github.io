@@ -1,17 +1,16 @@
 title: "Venkata Sai Teja Yerramsetti"
-description: "Senior .NET Full Stack Developer | .NET 8 • C# • ASP.NET Core • Angular • React . Next.js . Azure • Kubernetes"
-theme: minima
+description: "Senior .NET Full Stack Developer | .NET 8 • C# • ASP.NET Core • Angular • Azure"
+email: vyerramsetti1997@gmail.com
 
-# Theme settings
+theme: minima
+markdown: kramdown
+
+# Important: no header_pages (prevents a second title link on the right)
+# header_pages:
+
 minima:
-  skin: auto  # switches between light and dark
+  skin: auto
   social_links:
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/venkata-sai-teja-yerramsetti-595511172/" }
-    - { platform: github, user_url: "https://github.com/yerramsetti97" }
-    - { platform: email, user_url: "mailto:vyerramsetti1997@gmail.com" }
-
-header_pages:
-  - index.md
-
-# Markdown rendering
-markdown: kramdown
+    - { platform: github,   user_url: "https://github.com/yerramsetti97" }
+    - { platform: email,    user_url: "mailto:vyerramsetti1997@gmail.com" }
