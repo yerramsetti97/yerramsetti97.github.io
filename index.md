@@ -95,7 +95,7 @@ I’m passionate about cloud technologies, distributed systems, and AI-assisted 
     <li>Collaborated with cross-functional Agile teams to deliver data-driven public sector solutions on schedule.</li>
   </ul>
 
-  <h3>ECIT Hyderabad — Java Intern (2018 – 2019)</h3>
+  <h3>ECIT Hyderabad — .NET Intern (2018 – 2019)</h3>
   <ul>
     <li>Developed a session-based password authentication module in Java to enhance user security at login.</li>
     <li>Collaborated with a small team to design and test dynamic web interfaces using Java Servlets and JSP.</li>
