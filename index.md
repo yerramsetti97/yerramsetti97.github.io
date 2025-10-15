@@ -1,92 +1,121 @@
 ---
 layout: default
-title: Venkata Sai Teja Yerramsetti
+title: "Venkata Sai Teja Yerramsetti"
 ---
 
-<div style="text-align:center; padding: 40px 0;">
-  <h1 style="font-size:2.5rem; margin-bottom:10px;">Venkata Sai Teja Yerramsetti</h1>
-  <h3 style="font-weight:normal; color:#666;">Senior .NET Full Stack Developer</h3>
-  <p style="margin-top:20px;">
-    <a href="./resume.pdf" style="background:#0078d7; color:#fff; padding:10px 20px; border-radius:5px; text-decoration:none;">📄 Download Resume</a>
-    <a href="mailto:your.email@example.com" style="margin-left:10px; text-decoration:none;">📧 Email</a>
-    <a href="https://www.linkedin.com/in/venkata-sai-teja-yerramsetti-595511172/" style="margin-left:10px; text-decoration:none;">🔗 LinkedIn</a>
-    <a href="https://github.com/yerramsetti97" style="margin-left:10px; text-decoration:none;">💻 GitHub</a>
+<style>
+  body {
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #fafafa;
+  }
+
+  .hero {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+    margin-bottom: 0.3rem;
+  }
+
+  h3 {
+    color: #555;
+    font-weight: normal;
+  }
+
+  .links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0078D7;
+    font-weight: 500;
+  }
+
+  section {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 850px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 25px 0;
+  }
+</style>
+
+<div class="hero">
+  <h1>Venkata Sai Teja Yerramsetti</h1>
+  <h3>Senior .NET Full Stack Developer</h3>
+  <p class="links">
+    <a href="mailto:vyerramsetti1997@gmail.com">📧 Email</a> |
+    <a href="https://www.linkedin.com/in/venkata-sai-teja-yerramsetti-595511172/">💼 LinkedIn</a> |
+    <a href="https://github.com/yerramsetti97">💻 GitHub</a>
   </p>
 </div>
 
----
+<section>
+  <h2>👋 About Me</h2>
+  <p>
+    I'm a <strong>Full Stack .NET Developer</strong> with 7+ years of experience building secure, scalable, and cloud-native enterprise applications across healthcare, finance, and cloud domains.
+    I specialize in <strong>.NET 8, ASP.NET Core Web API, Angular, React, and Azure DevOps</strong>, with deep expertise in <strong>microservices, CI/CD automation, and cloud migrations</strong> that boost performance and delivery efficiency by up to 50%.
+  </p>
+</section>
 
-### 👋 About Me
-I’m a **Full Stack .NET Developer** with 7+ years of experience building **secure, scalable, cloud-native enterprise applications** across healthcare, finance, and cloud domains.  
-I specialize in **.NET 8, ASP.NET Core Web API, Angular, React, and Azure DevOps**, with strong experience in **microservices, CI/CD automation, and cloud migrations** that have improved performance and delivery efficiency by up to 50%.
+<section>
+  <h2>⚙️ Core Skills</h2>
+  <ul>
+    <li><strong>Backend:</strong> .NET 8, C#, ASP.NET Core Web API, EF Core 8, LINQ, REST, OAuth2/JWT</li>
+    <li><strong>Frontend:</strong> Angular 18, React 18, TypeScript, NgRx, RxJS, Material UI</li>
+    <li><strong>Cloud & DevOps:</strong> Azure (AKS, App Services, AD B2C, API Management), Docker, Kubernetes, GitHub Actions, Azure DevOps, SonarQube</li>
+    <li><strong>Database:</strong> SQL Server 2022, Redis, EF Core, Query Tuning, Normalization</li>
+    <li><strong>Testing & Security:</strong> xUnit, Moq, Jasmine, Karma, OAuth2, TLS, HIPAA/FHIR Compliance</li>
+  </ul>
+</section>
 
----
+<section>
+  <h2>💼 Professional Experience</h2>
 
-### ⚙️ Core Skills
+  <h3>BJC Healthcare — <em>Full Stack .NET Developer</em></h3>
+  <p><em>Mar 2024 – Present | Remote, USA</em></p>
+  <ul>
+    <li>Modernized a legacy care coordination platform into .NET 8 microservices with Angular 18 and Azure AKS.</li>
+    <li>Built FHIR R5-compliant APIs integrating EMR, lab, and payer systems.</li>
+    <li>Enhanced performance with Redis caching and SQL optimizations (60% faster APIs).</li>
+    <li>Implemented CI/CD via Azure DevOps & GitHub Actions with SonarQube quality gates.</li>
+  </ul>
 
-**Backend:** .NET 8, C#, ASP.NET Core Web API, EF Core 8, LINQ, REST, OAuth2/JWT  
-**Frontend:** Angular 18, React 18, TypeScript, NgRx, RxJS, Material UI  
-**Cloud & DevOps:** Azure (AKS, App Services, AD B2C, API Management), Docker, Kubernetes, GitHub Actions, Azure DevOps, SonarQube  
-**Database:** SQL Server 2022, Redis, EF Core, Query Tuning, Normalization  
-**Testing & Security:** xUnit, Moq, Jasmine, Karma, OAuth2, TLS, HIPAA/FHIR Compliance  
+  <h3>HSBC — <em>.NET Full Stack Developer</em></h3>
+  <p><em>Jan 2021 – Jul 2023 | Remote</em></p>
+  <ul>
+    <li>Developed a compliance automation platform with .NET 6, React 18, and Azure Cloud.</li>
+    <li>Architected APIs using Onion Architecture for modular scalability.</li>
+    <li>Implemented secure OAuth2/Azure AD authentication and API governance with APIM.</li>
+    <li>Optimized MongoDB queries and integrated Kafka/RabbitMQ for async processing.</li>
+  </ul>
 
----
+  <h3>IBM — <em>IT Analyst / .NET Developer</em></h3>
+  <p><em>Dec 2019 – Dec 2020 | Hyderabad, India</em></p>
+  <ul>
+    <li>Migrated legacy .NET Framework apps to .NET 6 with async and EF Core modernization.</li>
+    <li>Deployed serverless AWS Lambda functions integrated with S3 and SQS workflows.</li>
+    <li>Improved SQL Server performance for audit logs and transaction-heavy systems.</li>
+  </ul>
+</section>
 
-### 💼 Professional Experience
+<section>
+  <h2>📫 Contact</h2>
+  <p><strong>Email:</strong> <a href="mailto:vyerramsetti1997@gmail.com">vyerramsetti1997@gmail.com</a></p>
+  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/venkata-sai-teja-yerramsetti-595511172/">linkedin.com/in/venkata-sai-teja-yerramsetti</a></p>
+  <p><strong>GitHub:</strong> <a href="https://github.com/yerramsetti97">github.com/yerramsetti97</a></p>
+</section>
 
-#### **BJC Healthcare** — *Full Stack .NET Developer*  
-**Mar 2024 – Present | Remote, USA**  
-- Modernized a legacy .NET platform into a **cloud-native microservices system** using .NET 8 Web API, Angular 18, and Azure.  
-- Designed **FHIR R5-compliant REST APIs** ensuring interoperability across EMR, lab, and payer systems (HL7/HIPAA).  
-- Improved API performance by **60%** using Redis caching and SQL optimization.  
-- Automated **CI/CD pipelines** via Azure DevOps & GitHub Actions with SonarQube scans and approvals.  
-- Delivered real-time dashboards using WebSockets and Angular 18 components.  
-
-#### **HSBC** — *Full Stack .NET Developer*  
-**Jan 2021 – Jul 2023 | Remote**  
-- Built **Compliance Automation Platform** using .NET 6 Web API, React 18, and Azure Cloud.  
-- Architected backend services with Onion Architecture, improving modularity and scalability.  
-- Managed authentication via **OAuth2 + Azure AD**, and enforced API governance via Azure APIM.  
-- Integrated **Kafka & RabbitMQ** for distributed background processing.  
-- Achieved **90%+ test coverage** and 40% fewer post-release defects.
-
-#### **IBM** — *IT Analyst / .NET Developer*  
-**Dec 2019 – Dec 2020 | Hyderabad, India**  
-- Migrated legacy .NET Framework applications to **.NET 6**, modernizing services with EF Core & async programming.  
-- Deployed serverless functions on **AWS Lambda**, integrated with S3, API Gateway & SQS.  
-- Optimized SQL Server performance for audit logs & transaction-heavy workloads.  
-- Automated deployments via AWS CodePipeline and CodeBuild.
-
----
-
-### 🚀 Projects
-
-#### **Healthcare Microservices Platform (BJC)**
-- Designed HIPAA-compliant microservices using .NET 8, Azure AKS, and Redis.  
-- Implemented FHIR R5 data standards for seamless patient record exchange.
-
-#### **Compliance Automation (HSBC)**
-- Developed 25+ REST APIs and React components for financial regulatory workflows.  
-- Integrated Kafka & RabbitMQ for asynchronous document validation.
-
-#### **Modernization Toolkit**
-- Built reusable templates for JWT authentication, CI/CD, and health checks in .NET 8.
-
----
-
-### 🎓 Certifications
-- Microsoft Certified: **Azure Developer Associate (AZ-204)**  
-- Microsoft Certified: **.NET Developer Fundamentals**
-
----
-
-### 📫 Contact
-**Email:** your.email@example.com  
-**LinkedIn:** [linkedin.com/in/venkata-sai-teja-yerramsetti-595511172](https://www.linkedin.com/in/venkata-sai-teja-yerramsetti-595511172)  
-**GitHub:** [github.com/yerramsetti97](https://github.com/yerramsetti97)
-
----
-
-<div style="text-align:center; font-size:14px; color:#999; margin-top:30px;">
-  © 2025 Venkata Sai Teja Yerramsetti — Built with ❤️ using GitHub Pages & Jekyll
+<div style="text-align:center; font-size:13px; color:#888; margin:40px 0;">
+  © 2025 Venkata Sai Teja Yerramsetti — Built with ❤️ on GitHub Pages
 </div>
