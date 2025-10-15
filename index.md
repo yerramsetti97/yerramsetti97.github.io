@@ -1,75 +1,101 @@
 ---
 layout: default
-title: "Venkata Sai Teja Yerramsetti"
+title: "Home"
 ---
 
 <style>
-  body {
-    font-family: 'Inter', 'Segoe UI', sans-serif;
-    line-height: 1.6;
-    color: #222;
-    background-color: #fafafa;
+  /* Hide site title in the global header so only the page H1 shows */
+  .site-header .site-title, .site-header .site-nav { display: none !important; }
+
+  /* Jellybean look: playful bright accent + rounded cards */
+  :root {
+    --accent: #ff4f7b;       /* jellybean pink/red */
+    --accent-dark: #d93a64;
+    --card-bg: #ffffff;
+    --bg: #f6f7fb;
+    --text: #1f2430;
+    --muted: #667085;
+    --shadow: 0 6px 16px rgba(15, 23, 42, 0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --card-bg: #111827;
+      --bg: #0b1220;
+      --text: #e5e7eb;
+      --muted: #9aa4b2;
+      --shadow: 0 6px 16px rgba(0,0,0,0.35);
+    }
   }
 
+  body { background: var(--bg); color: var(--text); }
   .hero {
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin: 56px auto 28px;
   }
-
-  h1 {
+  .hero h1 {
     font-size: 2.4rem;
-    margin-bottom: 0.3rem;
+    margin: 0 0 6px;
+    letter-spacing: 0.2px;
   }
-
-  h3 {
-    color: #555;
-    font-weight: normal;
+  .hero h3 {
+    margin: 0 0 16px;
+    font-weight: 500;
+    color: var(--muted);
   }
 
   .links a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #0078D7;
-    font-weight: 500;
+    display: inline-flex; align-items: center;
+    gap: 6px; margin: 0 10px; text-decoration: none;
+    color: var(--accent); font-weight: 600;
   }
+  .links a:hover { color: var(--accent-dark); }
 
   section {
-    background: white;
-    border-radius: 12px;
-    padding: 25px;
-    margin: 20px auto;
-    max-width: 850px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 24px 26px;
+    margin: 14px auto;
+    max-width: 900px;
+    box-shadow: var(--shadow);
+  }
+  section h2 { margin-top: 0; }
+  ul { margin: 0.6rem 0 0.2rem 1.1rem; }
+  li + li { margin-top: 6px; }
+
+  /* Soft accent underline on section titles */
+  h2 {
+    position: relative; display: inline-block; padding-bottom: 4px;
+  }
+  h2:after {
+    content: ""; position: absolute; left: 0; bottom: 0;
+    width: 42%; height: 3px; border-radius: 2px; background: var(--accent);
   }
 
-  hr {
-    border: none;
-    border-top: 1px solid #ddd;
-    margin: 25px 0;
-  }
+  /* Hide site footer duplication if any */
+  .site-footer { display: none !important; }
 </style>
 
 <div class="hero">
   <h1>Venkata Sai Teja Yerramsetti</h1>
   <h3>Senior .NET Full Stack Developer</h3>
   <p class="links">
-    <a href="mailto:vyerramsetti1997@gmail.com">📧 Email</a> |
-    <a href="https://www.linkedin.com/in/venkata-sai-teja-yerramsetti-595511172/">💼 LinkedIn</a> |
+    <a href="mailto:vyerramsetti1997@gmail.com">📧 Email</a>
+    <a href="https://www.linkedin.com/in/venkata-sai-teja-yerramsetti-595511172/">💼 LinkedIn</a>
     <a href="https://github.com/yerramsetti97">💻 GitHub</a>
   </p>
 </div>
 
 <section>
-  <h2>👋 About Me</h2>
+  <h2>About Me</h2>
   <p>
     I'm a <strong>Full Stack .NET Developer</strong> with 7+ years of experience building secure, scalable, and cloud-native enterprise applications across healthcare, finance, and cloud domains.
-    I specialize in <strong>.NET 8, ASP.NET Core Web API, Angular, React, and Azure DevOps</strong>, with deep expertise in <strong>microservices, CI/CD automation, and cloud migrations</strong> that boost performance and delivery efficiency by up to 50%.
+    I specialize in <strong>.NET 8, ASP.NET Core Web API, Angular, React, and Azure DevOps</strong>, with deep expertise in
+    <strong>microservices, CI/CD automation, and cloud migrations</strong> that improve performance and delivery efficiency by up to 50%.
   </p>
 </section>
 
 <section>
-  <h2>⚙️ Core Skills</h2>
+  <h2>Core Skills</h2>
   <ul>
     <li><strong>Backend:</strong> .NET 8, C#, ASP.NET Core Web API, EF Core 8, LINQ, REST, OAuth2/JWT</li>
     <li><strong>Frontend:</strong> Angular 18, React 18, TypeScript, NgRx, RxJS, Material UI</li>
@@ -80,42 +106,24 @@ title: "Venkata Sai Teja Yerramsetti"
 </section>
 
 <section>
-  <h2>💼 Professional Experience</h2>
+  <h2>Professional Experience (Highlights)</h2>
 
   <h3>BJC Healthcare — <em>Full Stack .NET Developer</em></h3>
-  <p><em>Mar 2024 – Present | Remote, USA</em></p>
   <ul>
-    <li>Modernized a legacy care coordination platform into .NET 8 microservices with Angular 18 and Azure AKS.</li>
-    <li>Built FHIR R5-compliant APIs integrating EMR, lab, and payer systems.</li>
-    <li>Enhanced performance with Redis caching and SQL optimizations (60% faster APIs).</li>
-    <li>Implemented CI/CD via Azure DevOps & GitHub Actions with SonarQube quality gates.</li>
+    <li>Modernized care coordination into .NET 8 microservices on Azure AKS; Angular 18 front-end.</li>
+    <li>FHIR R5 APIs integrating EMR/lab/payer systems; Redis + SQL tuning → ~60% faster APIs.</li>
+    <li>CI/CD via Azure DevOps & GitHub Actions with SonarQube gates.</li>
   </ul>
 
   <h3>HSBC — <em>.NET Full Stack Developer</em></h3>
-  <p><em>Jan 2021 – Jul 2023 | Remote</em></p>
   <ul>
-    <li>Developed a compliance automation platform with .NET 6, React 18, and Azure Cloud.</li>
-    <li>Architected APIs using Onion Architecture for modular scalability.</li>
-    <li>Implemented secure OAuth2/Azure AD authentication and API governance with APIM.</li>
-    <li>Optimized MongoDB queries and integrated Kafka/RabbitMQ for async processing.</li>
+    <li>Compliance automation platform with .NET 6 + React 18; Onion Arch microservices.</li>
+    <li>OAuth2/Azure AD, APIM governance; MongoDB perf + Kafka/RabbitMQ async flows.</li>
   </ul>
 
   <h3>IBM — <em>IT Analyst / .NET Developer</em></h3>
-  <p><em>Dec 2019 – Dec 2020 | Hyderabad, India</em></p>
   <ul>
-    <li>Migrated legacy .NET Framework apps to .NET 6 with async and EF Core modernization.</li>
-    <li>Deployed serverless AWS Lambda functions integrated with S3 and SQS workflows.</li>
-    <li>Improved SQL Server performance for audit logs and transaction-heavy systems.</li>
+    <li>Migrated .NET Framework to .NET 6 (EF Core, async); performance tuning on SQL Server.</li>
+    <li>Serverless AWS Lambda + S3/SQS for audit and file workflows.</li>
   </ul>
 </section>
-
-<section>
-  <h2>📫 Contact</h2>
-  <p><strong>Email:</strong> <a href="mailto:vyerramsetti1997@gmail.com">vyerramsetti1997@gmail.com</a></p>
-  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/venkata-sai-teja-yerramsetti-595511172/">linkedin.com/in/venkata-sai-teja-yerramsetti</a></p>
-  <p><strong>GitHub:</strong> <a href="https://github.com/yerramsetti97">github.com/yerramsetti97</a></p>
-</section>
-
-<div style="text-align:center; font-size:13px; color:#888; margin:40px 0;">
-  © 2025 Venkata Sai Teja Yerramsetti — Built with ❤️ on GitHub Pages
-</div>
