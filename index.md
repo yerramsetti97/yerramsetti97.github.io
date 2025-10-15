@@ -1,19 +1,31 @@
 ---
 layout: default
-title: "Home"
+title: "Venkata Sai Teja Yerramsetti"
 ---
 
-<!-- Optional: small style touch to keep cards clean -->
 <style>
+  body {
+    font-family: "Times New Roman", Times, serif;
+  }
   .content { max-width: 900px; margin: 0 auto; }
   section {
-    background: #fff; border-radius: 12px; padding: 22px 24px; margin: 14px 0;
+    background: #fff;
+    border-radius: 12px;
+    padding: 22px 24px;
+    margin: 16px 0;
     box-shadow: 0 6px 16px rgba(0,0,0,0.06);
   }
-  h2 { margin-top: 0; }
+  h2 { margin-top: 0; color: #004466; }
+  h3 { color: #006699; }
+  ul { margin-top: 6px; margin-bottom: 4px; }
   .top-links { text-align:center; margin: 10px 0 18px; }
-  .top-links a { margin: 0 10px; font-weight: 600; }
-  /* Hide site footer if you don’t want contact repeated */
+  .top-links a {
+    margin: 0 10px;
+    font-weight: 600;
+    color: #0074a2;
+    text-decoration: none;
+  }
+  .top-links a:hover { text-decoration: underline; }
   footer.site-footer { display: none; }
 </style>
 
@@ -28,9 +40,8 @@ title: "Home"
 <section>
   <h2>About Me</h2>
   <p>
-    I'm a <strong>Full Stack .NET Developer</strong> with 7+ years building secure, scalable, cloud-native enterprise apps across healthcare and finance.
-    I specialize in <strong>.NET 8, ASP.NET Core Web API, Angular/React, and Azure DevOps</strong>, with deep expertise in
-    <strong>microservices, CI/CD automation, and cloud migrations</strong> that boost performance and delivery efficiency.
+    I’m a <strong>Full Stack .NET Developer</strong> with 7+ years of experience building secure, scalable, and cloud-native enterprise applications across healthcare, finance, and cloud domains.
+    I specialize in <strong>.NET 8, ASP.NET Core Web API, Angular, React, and Azure DevOps</strong>, with deep expertise in <strong>microservices, CI/CD automation, and cloud migrations</strong> that enhance system performance and delivery efficiency.
   </p>
 </section>
 
@@ -40,27 +51,51 @@ title: "Home"
     <li><strong>Backend:</strong> .NET 8, C#, ASP.NET Core Web API, EF Core 8, LINQ, REST, OAuth2/JWT</li>
     <li><strong>Frontend:</strong> Angular 18, React 18, TypeScript, NgRx, RxJS, Material UI</li>
     <li><strong>Cloud & DevOps:</strong> Azure (AKS, App Services, AD B2C, API Management), Docker, Kubernetes, GitHub Actions, Azure DevOps, SonarQube</li>
-    <li><strong>Database:</strong> SQL Server 2022, Redis, EF Core, Query Tuning</li>
-    <li><strong>Testing & Security:</strong> xUnit, Moq, Jasmine, Karma, OAuth2, TLS, HIPAA/FHIR</li>
+    <li><strong>Database:</strong> SQL Server 2022, Redis, EF Core, Query Tuning, Normalization</li>
+    <li><strong>Testing & Security:</strong> xUnit, Moq, Jasmine, Karma, OAuth2, TLS, HIPAA/FHIR Compliance</li>
   </ul>
 </section>
 
 <section>
-  <h2>Experience Highlights</h2>
-  <h3>BJC Healthcare — <em>Full Stack .NET Developer</em></h3>
+  <h2>Professional Experience</h2>
+
+  <h3>BJC Healthcare — Full Stack .NET Developer (2024 – Present)</h3>
   <ul>
-    <li>.NET 8 microservices on Azure AKS; Angular 18 front-end; FHIR R5 APIs.</li>
-    <li>Redis + SQL tuning → ~60% faster APIs; CI/CD via Azure DevOps & GitHub Actions.</li>
+    <li>Modernized a legacy .NET care-coordination platform into Azure-native microservices (.NET 8 Web API + Angular 18).</li>
+    <li>Designed FHIR R5-compliant REST APIs for interoperability across EMR, lab, and payer systems under HIPAA.</li>
+    <li>Enhanced performance by 60% through Redis caching, SQL query optimization, and EF Core projection patterns.</li>
+    <li>Automated CI/CD using Azure DevOps YAML pipelines and GitHub Actions with SonarQube quality gates.</li>
+    <li>Integrated Stripe and HealthPay for secure payment processing and 30% faster billing reconciliation.</li>
+    <li>Implemented observability via Serilog and Azure Application Insights for centralized diagnostics and alerting.</li>
   </ul>
 
-  <h3>HSBC — <em>.NET Full Stack Developer</em></h3>
+  <h3>HSBC — . NET Full Stack Developer (2021 – 2023)</h3>
   <ul>
-    <li>Compliance automation platform (.NET 6 + React 18); APIM governance; Kafka/RabbitMQ.</li>
+    <li>Built a Compliance Automation Platform with .NET 6 Web API and React 18 to streamline KYC/AML processes.</li>
+    <li>Applied Onion Architecture and Clean Code principles to enforce maintainability and scalability.</li>
+    <li>Developed 25+ RESTful APIs for KYC onboarding, AML risk scoring, and case management using Swagger and OpenAPI.</li>
+    <li>Integrated OAuth2 and Azure Active Directory for SSO and role-based access management.</li>
+    <li>Implemented message queuing using Kafka and RabbitMQ for real-time transaction surveillance.</li>
+    <li>Optimized MongoDB aggregations for audit logging and achieved 45% faster data retrieval.</li>
+    <li>Configured Jenkins CI/CD with SonarQube gates to enforce code quality and automated deployments.</li>
   </ul>
 
-  <h3>IBM — <em>IT Analyst / .NET Developer</em></h3>
+  <h3>IBM — IT Analyst / . NET Developer (2019 – 2020)</h3>
   <ul>
-    <li>Migrated .NET Framework to .NET 6 (EF Core, async); SQL Server performance tuning.</li>
+    <li>Modernized legacy ASP.NET MVC and WCF apps into .NET 6 services with async programming patterns.</li>
+    <li>Implemented Entity Framework and LINQ for efficient data access and business logic execution.</li>
+    <li>Optimized SQL stored procedures and indexes for audit logging and tracking modules.</li>
+    <li>Built and deployed AWS Lambda serverless functions for file processing and audit validation workflows.</li>
+    <li>Automated build and deployments via AWS Code Pipeline and Code Build for continuous integration.</li>
+    <li>Collaborated with cross-functional Agile teams to deliver data-driven public sector solutions on schedule.</li>
+  </ul>
+
+  <h3>ECIT Hyderabad — Java Intern (2018 – 2019)</h3>
+  <ul>
+    <li>Developed a session-based password authentication module in Java to enhance user security at login.</li>
+    <li>Collaborated with a small team to design and test dynamic web interfaces using Java Servlets and JSP.</li>
+    <li>Implemented encryption techniques and input validation for secure credential handling.</li>
+    <li>Learned software development lifecycle (SDLC) best practices and team coordination on real-world projects.</li>
   </ul>
 </section>
 
