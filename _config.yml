@@ -1,16 +1,9 @@
 title: "Venkata Sai Teja Yerramsetti"
-description: "Senior .NET Full Stack Developer | .NET 8 • C# • ASP.NET Core • Angular • Azure"
+description: "Senior .NET Full Stack Developer"
+
+theme: jekyll-theme-cayman
 email: vyerramsetti1997@gmail.com
 
-theme: minima
-markdown: kramdown
-
-# Important: no header_pages (prevents a second title link on the right)
+# Keep the header simple (no extra nav links that could duplicate your name)
+# Cayman doesn’t need header_pages for a single-page site.
 # header_pages:
-
-minima:
-  skin: auto
-  social_links:
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/venkata-sai-teja-yerramsetti-595511172/" }
-    - { platform: github,   user_url: "https://github.com/yerramsetti97" }
-    - { platform: email,    user_url: "mailto:vyerramsetti1997@gmail.com" }
