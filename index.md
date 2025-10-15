@@ -40,8 +40,13 @@ title: "Venkata Sai Teja Yerramsetti"
 <section>
   <h2>About Me</h2>
   <p>
-    I’m a <strong>Full Stack .NET Developer</strong> with 7+ years of experience building secure, scalable, and cloud-native enterprise applications across healthcare, finance, and cloud domains.
-    I specialize in <strong>.NET 8, ASP.NET Core Web API, Angular, React, and Azure DevOps</strong>, with deep expertise in <strong>microservices, CI/CD automation, and cloud migrations</strong> that enhance system performance and delivery efficiency.
+    I’m a Full Stack .NET Developer with over 7 years of experience designing and developing secure, scalable, and cloud-native enterprise applications across healthcare, finance, and cloud domains. My expertise lies in .NET 8, ASP.NET Core Web API, Angular, React, Azure, and DevOps pipelines, with a strong focus on performance optimization, clean architecture, and automation.
+
+I’ve successfully modernized legacy systems into distributed microservice architectures hosted on Azure Kubernetes Service (AKS), improving scalability and deployment efficiency by over 50%. I’m also experienced in building FHIR/HIPAA-compliant APIs, integrating CI/CD automation, and implementing secure authentication and observability with Azure AD B2C, Redis, and Application Insights.
+
+Throughout my career, I’ve led and collaborated with cross-functional Agile teams, working closely with product owners, architects, and stakeholders to deliver business-critical solutions. My development approach balances technical precision with user-centric design — ensuring every system I build is robust, maintainable, and built for scale.
+
+I’m passionate about cloud technologies, distributed systems, and AI-assisted automation, and I thrive in environments that challenge me to innovate, learn continuously, and deliver measurable impact through technology.
   </p>
 </section>
 
