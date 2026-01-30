@@ -3,69 +3,72 @@ layout: default
 ---
 
 <style>
+  /* Professional justified alignment for the blog feel */
+  .narrative-text {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.8;
+    color: #444;
+  }
   .skill-tag { 
     display: inline-block; background: #f0f4f8; color: #004466; 
-    padding: 3px 10px; border-radius: 15px; font-size: 0.85em; 
-    margin: 3px; font-weight: 600; border: 1px solid #d1d9e0;
+    padding: 4px 12px; border-radius: 20px; font-size: 0.85em; 
+    margin: 4px; font-weight: 600; border: 1px solid #d1d9e0;
   }
-  h2 { border-bottom: 2px solid #eee; padding-bottom: 5px; color: #004466; margin-top: 30px; }
-  .exp-header { display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 0; }
-  .exp-sub { font-style: italic; color: #666; margin-bottom: 10px; }
-  /* This aligns the paragraphs for a clean, professional look */
-  .portfolio-intro { text-align: justify; text-justify: inter-word; }
+  h2 { border-bottom: 2px solid #eee; padding-bottom: 8px; color: #004466; margin-top: 40px; }
+  h3 { color: #006699; margin-top: 25px; }
+  .chapter-header { display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 2px; }
+  .chapter-sub { font-style: italic; color: #777; margin-bottom: 12px; display: block; }
 </style>
 
-<div class="portfolio-intro">
+<div class="narrative-text">
 
-## About Me
-I am a **Backend Software Engineer with over 5 years of industry experience** dedicated to building the invisible architecture that powers modern web applications. My journey in software engineering began with a deep fascination for how data moves across global networks, leading me to specialize in **Distributed Systems, Data Modeling, and Cloud Infrastructure**. 
+## The Engineering Narrative
+[cite_start]I am a **Backend Software Engineer with over 5 years of industry experience**[cite: 5]. [cite_start]My professional journey is driven by a fascination with "invisible architecture"—the robust, high-availability systems that power our digital world behind the scenes[cite: 7, 52]. [cite_start]I specialize in building production-grade services that prioritize scalability, data integrity, and long-term maintainability[cite: 5, 6].
 
-I believe that great software isn't just about writing code that works—it's about creating systems that are resilient, maintainable, and built to evolve. Throughout my career, I have transitioned from building core Java services to architecting modern, AI-enhanced backend solutions. Currently, I am focused on the intersection of **Backend Engineering and AI Integration**, exploring how Large Language Models and intelligent automation can be seamlessly embedded into production-grade systems to solve complex business challenges.
+Beyond traditional backend development, I am currently exploring the intersection of **Systems Design and Artificial Intelligence**. [cite_start]My recent work focuses on how Large Language Models and intelligent automation can be integrated into existing microservice architectures to solve complex business problems at scale[cite: 12, 52]. I believe that the most impactful software is born from a balance of technical precision and architectural foresight.
 
-### What I Bring to the Table
-* **Architectural Thinking:** I design with scale in mind, utilizing microservices and cloud-native patterns to ensure high availability and performance.
-* **Problem Solving:** I thrive on debugging complex, cross-stack issues and optimizing systems where every millisecond of latency matters.
-* **Continuous Growth:** As a Master’s student in Computer Science, I am constantly bridging the gap between academic theory (like advanced data modeling) and practical, real-world implementation.
+### My Core Philosophies
+* [cite_start]**Scale with Intent:** I architect solutions using microservices and cloud-native patterns (AWS) not just for growth, but for resilience[cite: 12, 19, 52].
+* [cite_start]**Operational Excellence:** From optimizing SQL queries to automating CI/CD pipelines, I focus on reducing manual friction and increasing system reliability[cite: 21, 28, 35].
+* [cite_start]**Continuous Evolution:** As a Master’s student in Computer Science, I bridge the gap between academic theory—like advanced data modeling—and production implementation[cite: 9, 12, 51].
 
 </div>
 
-## Technical Skills
+## Technical Toolkit
 
 **Backend & APIs**
-<span class="skill-tag">Java (Spring Boot)</span> <span class="skill-tag">Node.js (Express)</span> <span class="skill-tag">Python (FastAPI)</span> <span class="skill-tag">gRPC</span> <span class="skill-tag">GraphQL</span> <span class="skill-tag">REST</span>
+[cite_start]<span class="skill-tag">Java (Spring Boot)</span> <span class="skill-tag">Node.js (Express)</span> <span class="skill-tag">Python (FastAPI)</span> <span class="skill-tag">gRPC</span> <span class="skill-tag">GraphQL</span> <span class="skill-tag">REST</span> [cite: 20, 52]
 
-**Databases & Storage**
-<span class="skill-tag">PostgreSQL</span> <span class="skill-tag">MySQL</span> <span class="skill-tag">MongoDB</span> <span class="skill-tag">SQL Server</span> <span class="skill-tag">Data Modeling</span>
+**Cloud & Infrastructure**
+[cite_start]<span class="skill-tag">AWS (EC2, S3, Lambda)</span> <span class="skill-tag">Docker</span> <span class="skill-tag">Kubernetes</span> <span class="skill-tag">CI/CD</span> <span class="skill-tag">Microservices</span> [cite: 21, 52]
 
-**Cloud & DevOps**
-<span class="skill-tag">AWS (EC2, S3, Lambda)</span> <span class="skill-tag">Docker</span> <span class="skill-tag">Kubernetes</span> <span class="skill-tag">CI/CD</span> <span class="skill-tag">Microservices</span>
+**Data & Automation**
+[cite_start]<span class="skill-tag">PostgreSQL</span> <span class="skill-tag">MongoDB</span> <span class="skill-tag">SQL Server</span> <span class="skill-tag">LLM Integration</span> <span class="skill-tag">Prompt Engineering</span> [cite: 34, 52]
 
-**AI & Machine Learning**
-<span class="skill-tag">LLM Integration (OpenAI, LangChain)</span> <span class="skill-tag">Prompt Engineering</span> <span class="skill-tag">scikit-learn</span>
+## Engineering Chapters
 
-## Professional Experience
+<div class="chapter-header"><span>AI Software Integration Intern</span> <span>Aug 2025 – Present</span></div>
+<span class="chapter-sub">PlaSiV INC | Chicago, IL</span>
+* [cite_start]Architected production-ready technical solutions using **microservices** and distributed systems[cite: 19].
+* [cite_start]Designed and implemented business-critical APIs using **Java Spring Boot and Node.js**[cite: 20].
+* [cite_start]Streamlined deployment velocity through **Kubernetes** orchestration and **CI/CD** optimization[cite: 21].
 
-<div class="exp-header"><span>AI Software Integration Intern</span> <span>Aug 2025 – Present</span></div>
-<div class="exp-sub">PlaSiV INC | Chicago, IL</div>
-* Architected scalable, production-ready technical solutions using microservices and distributed systems.
-* Designed and implemented microservices-based APIs using Java Spring Boot and Node.js.
-* Managed distributed system deployments using Kubernetes and optimized CI/CD pipelines.
+<div class="chapter-header"><span>Web Developer</span> <span>Sep 2021 – Jul 2023</span></div>
+<span class="chapter-sub">WynFluenz | Hyderabad, India</span>
+* [cite_start]Engineered **RESTful services** and optimized data models to handle large-scale transactional data[cite: 26].
+* [cite_start]Improved system performance by 15% through **code-splitting** and architectural best practices[cite: 27, 28].
+* [cite_start]Ensured system reliability by maintaining >90% code coverage using **Jest and JUnit**[cite: 29].
 
-<div class="exp-header"><span>Web Developer</span> <span>Sep 2021 – Jul 2023</span></div>
-<div class="exp-sub">WynFluenz | Hyderabad, India</div>
-* Engineered RESTful services and optimized data models to handle large-scale transactional data.
-* Optimized platform performance by implementing lazy loading, reducing load times by 15%.
-* Formulated comprehensive unit tests using Jest and JUnit to maintain high code coverage.
+<div class="chapter-header"><span>IT Analyst / Java Developer</span> <span>Dec 2019 – Dec 2020</span></div>
+<span class="chapter-sub">IBM | Hyderabad, India</span>
+* [cite_start]Resolved critical system incidents across **Unix and Windows** to improve service reliability[cite: 41].
+* [cite_start]Developed **Python automation scripts** for anomaly detection and real-time system alerts[cite: 42].
+* [cite_start]Mentored junior analysts on **automation best practices**, improving onboarding efficiency by 20%[cite: 44].
 
-<div class="exp-header"><span>IT Analyst / Java Developer</span> <span>Dec 2019 – Dec 2020</span></div>
-<div class="exp-sub">IBM | Hyderabad, India</div>
-* Resolved critical system incidents across Unix and Windows environments to improve reliability.
-* Programmed Python automation scripts to detect log anomalies and trigger real-time alerts.
-* Managed enterprise accounts while ensuring strict data integrity and access control.
-
-## Education
-* **Master of Science, Computer Science** | Lewis University
-* **Bachelor of Technology, Computer Science** | Geethanjali College of Engineering
+## Academic Foundation
+* **Master of Science, Computer Science** | Lewis University | [cite_start]2025 [cite: 9, 11]
+* **Bachelor of Technology, Computer Science** | Geethanjali College | [cite_start]2018 [cite: 13, 14]
 
 ---
 [📧 Email](mailto:venkatasaitejayerramsetti@gmail.com) | [💼 LinkedIn](https://linkedin.com/in/venkatasaitejayerramsetti) | [💻 GitHub](https://github.com/yerramsetti97)
