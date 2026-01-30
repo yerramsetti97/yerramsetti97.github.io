@@ -11,12 +11,23 @@ layout: default
   h2 { border-bottom: 2px solid #eee; padding-bottom: 5px; color: #004466; margin-top: 30px; }
   .exp-header { display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 0; }
   .exp-sub { font-style: italic; color: #666; margin-bottom: 10px; }
+  /* This aligns the paragraphs for a clean, professional look */
+  .portfolio-intro { text-align: justify; text-justify: inter-word; }
 </style>
 
-## About Me
-I am a **Backend Software Engineer with 5+ years of experience** building production-grade services and scalable systems. My expertise lies in **Distributed Systems, Data Modeling, and Cloud Infrastructure**, with a focus on creating high-performance, maintainable code that solves complex business challenges.
+<div class="portfolio-intro">
 
-I specialize in bridging the gap between intelligent automation and robust backend architecture by integrating AI/ML models into production workflows. I am driven by the challenge of engineering reliable systems and upholding operational excellence at scale.
+## About Me
+I am a **Backend Software Engineer with over 5 years of industry experience** dedicated to building the invisible architecture that powers modern web applications. My journey in software engineering began with a deep fascination for how data moves across global networks, leading me to specialize in **Distributed Systems, Data Modeling, and Cloud Infrastructure**. 
+
+I believe that great software isn't just about writing code that works—it's about creating systems that are resilient, maintainable, and built to evolve. Throughout my career, I have transitioned from building core Java services to architecting modern, AI-enhanced backend solutions. Currently, I am focused on the intersection of **Backend Engineering and AI Integration**, exploring how Large Language Models and intelligent automation can be seamlessly embedded into production-grade systems to solve complex business challenges.
+
+### What I Bring to the Table
+* **Architectural Thinking:** I design with scale in mind, utilizing microservices and cloud-native patterns to ensure high availability and performance.
+* **Problem Solving:** I thrive on debugging complex, cross-stack issues and optimizing systems where every millisecond of latency matters.
+* **Continuous Growth:** As a Master’s student in Computer Science, I am constantly bridging the gap between academic theory (like advanced data modeling) and practical, real-world implementation.
+
+</div>
 
 ## Technical Skills
 
@@ -37,23 +48,20 @@ I specialize in bridging the gap between intelligent automation and robust backe
 <div class="exp-header"><span>AI Software Integration Intern</span> <span>Aug 2025 – Present</span></div>
 <div class="exp-sub">PlaSiV INC | Chicago, IL</div>
 * Architected scalable, production-ready technical solutions using microservices and distributed systems.
-* Designed and implemented microservices-based APIs using Java Spring Boot and Node.js to support business-critical workflows.
+* Designed and implemented microservices-based APIs using Java Spring Boot and Node.js.
 * Managed distributed system deployments using Kubernetes and optimized CI/CD pipelines.
-* Integrated AI and Machine Learning models into production applications to enhance system intelligence.
 
 <div class="exp-header"><span>Web Developer</span> <span>Sep 2021 – Jul 2023</span></div>
 <div class="exp-sub">WynFluenz | Hyderabad, India</div>
-* Engineered RESTful services and optimized data models to handle large-scale transactional data with high integrity.
-* Optimized platform performance by implementing code-splitting and lazy loading, reducing load times by 15%.
-* Reduced system latency through backend optimization and architectural best practices.
-* Formulated comprehensive unit tests using Jest and JUnit to maintain high code coverage standards.
+* Engineered RESTful services and optimized data models to handle large-scale transactional data.
+* Optimized platform performance by implementing lazy loading, reducing load times by 15%.
+* Formulated comprehensive unit tests using Jest and JUnit to maintain high code coverage.
 
 <div class="exp-header"><span>IT Analyst / Java Developer</span> <span>Dec 2019 – Dec 2020</span></div>
 <div class="exp-sub">IBM | Hyderabad, India</div>
-* Resolved critical system incidents across Unix and Windows environments to improve service reliability.
+* Resolved critical system incidents across Unix and Windows environments to improve reliability.
 * Programmed Python automation scripts to detect log anomalies and trigger real-time alerts.
-* Managed 200+ enterprise user accounts while ensuring strict data integrity and access control.
-* Mentored new analysts on automation best practices, accelerating the onboarding process.
+* Managed enterprise accounts while ensuring strict data integrity and access control.
 
 ## Education
 * **Master of Science, Computer Science** | Lewis University
