@@ -1,9 +1,6 @@
-title: "Venkata Sai Teja Yerramsetti"
-description: "Senior .NET Full Stack Developer"
-
-theme: jekyll-theme-cayman
-email: vyerramsetti1997@gmail.com
-
-# Keep the header simple (no extra nav links that could duplicate your name)
-# Cayman doesn’t need header_pages for a single-page site.
-# header_pages:
+title: Venkata Sai Teja Yerramsetti
+description: Backend Software Engineer | Systems Design | AI/ML Integration
+theme: jekyll-theme-minimal
+email: venkatasaitejayerramsetti@gmail.com
+# Provide the path to your social links
+linkedin_username: www.linkedin.com/in/venkata-yerramsetti-595511172
