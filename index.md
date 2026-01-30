@@ -1,107 +1,71 @@
 ---
 layout: default
-title: "Venkata Sai Teja Yerramsetti"
+title: Venkata Sai Teja Yerramsetti
 ---
 
 <style>
-  body {
-    font-family: "Times New Roman", Times, serif;
+  body { font-family: "Inter", sans-serif; color: #333; line-height: 1.6; }
+  h1, h2, h3 { color: #004466; font-weight: 700; }
+  .skill-tag { 
+    display: inline-block; background: #eef2f7; color: #004466; 
+    padding: 4px 12px; border-radius: 20px; font-size: 0.85em; 
+    margin: 4px; font-weight: 600; 
   }
-  .content { max-width: 900px; margin: 0 auto; }
-  section {
-    background: #fff;
-    border-radius: 12px;
-    padding: 22px 24px;
-    margin: 16px 0;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.06);
-  }
-  h2 { margin-top: 0; color: #004466; }
-  h3 { color: #006699; }
-  ul { margin-top: 6px; margin-bottom: 4px; }
-  .top-links { text-align:center; margin: 10px 0 18px; }
-  .top-links a {
-    margin: 0 10px;
-    font-weight: 600;
-    color: #0074a2;
-    text-decoration: none;
-  }
-  .top-links a:hover { text-decoration: underline; }
-  footer.site-footer { display: none; }
+  section { margin-bottom: 40px; }
 </style>
 
-<div class="content">
+# Venkata Sai Teja Yerramsetti
+**Backend Software Engineer | Systems Design | AI/ML Integration**
+[📧 Email](mailto:venkatasaitejayerramsetti@gmail.com) | [💼 LinkedIn](https://linkedin.com/in/venkatasaitejayerramsetti) | [💻 GitHub](https://github.com/yerramsetti97)
 
-<div class="top-links">
-  <a href="mailto:vyerramsetti1997@gmail.com">📧 Email</a>
-  <a href="https://www.linkedin.com/in/venkata-sai-teja-yerramsetti-595511172/">💼 LinkedIn</a>
-  <a href="https://github.com/yerramsetti97">💻 GitHub</a>
-</div>
+---
 
-<section>
-  <h2>About Me</h2>
-  <p>
-    I’m a Full Stack .NET Developer with over 7 years of experience designing and developing secure, scalable, and cloud-native enterprise applications across healthcare, finance, and cloud domains. My expertise lies in .NET 8, ASP.NET Core Web API, Angular, React, Azure, and DevOps pipelines, with a strong focus on performance optimization, clean architecture, and automation.
+## About Me
+[cite_start]I am a **Backend Software Engineer with 5+ years of experience** specializing in building production-grade services and scalable APIs[cite: 76]. [cite_start]My expertise lies in **Distributed Systems**, **Data Modeling**, and **Cloud Infrastructure**, with a specialized focus on designing ergonomic APIs and high-availability systems[cite: 77, 78].
 
-I’ve successfully modernized legacy systems into distributed microservice architectures hosted on Azure Kubernetes Service (AKS), improving scalability and deployment efficiency by over 50%. I’m also experienced in building FHIR/HIPAA-compliant APIs, integrating CI/CD automation, and implementing secure authentication and observability with Azure AD B2C, Redis, and Application Insights.
+[cite_start]Currently, I am integrating AI/ML models into production workflows, bridging the gap between intelligent automation and robust backend architecture[cite: 93]. [cite_start]I am driven by the challenge of building reliable financial infrastructure and maintainable code that solves complex business problems at scale[cite: 77].
 
-Throughout my career, I’ve led and collaborated with cross-functional Agile teams, working closely with product owners, architects, and stakeholders to deliver business-critical solutions. My development approach balances technical precision with user-centric design — ensuring every system I build is robust, maintainable, and built for scale.
+---
 
-I’m passionate about cloud technologies, distributed systems, and AI-assisted automation, and I thrive in environments that challenge me to innovate, learn continuously, and deliver measurable impact through technology.
-  </p>
-</section>
+## Technical Skills
 
-<section>
-  <h2>Core Skills</h2>
-  <ul>
-    <li><strong>Backend:</strong> .NET 8, C#, ASP.NET Core Web API, EF Core 8, LINQ, REST, OAuth2/JWT</li>
-    <li><strong>Frontend:</strong> Angular 18, React 18, TypeScript, NgRx, RxJS, Material UI</li>
-    <li><strong>Cloud & DevOps:</strong> Azure (AKS, App Services, AD B2C, API Management), Docker, Kubernetes, GitHub Actions, Azure DevOps, SonarQube</li>
-    <li><strong>Database:</strong> SQL Server 2022, Redis, EF Core, Query Tuning, Normalization</li>
-    <li><strong>Testing & Security:</strong> xUnit, Moq, Jasmine, Karma, OAuth2, TLS, HIPAA/FHIR Compliance</li>
-  </ul>
-</section>
+**Backend & APIs**
+[cite_start]<span class="skill-tag">Java (Spring Boot)</span> <span class="skill-tag">Node.js (Express)</span> <span class="skill-tag">Python (FastAPI)</span> <span class="skill-tag">gRPC</span> <span class="skill-tag">GraphQL</span> <span class="skill-tag">REST</span> 
 
-<section>
-  <h2>Professional Experience</h2>
+**Databases & Storage**
+[cite_start]<span class="skill-tag">PostgreSQL</span> <span class="skill-tag">MySQL</span> <span class="skill-tag">MongoDB</span> <span class="skill-tag">SQL Server</span> <span class="skill-tag">Data Modeling</span> 
 
-  <h3>BJC Healthcare — Full Stack .NET Developer (2024 – Present)</h3>
-  <ul>
-    <li>Modernized a legacy .NET care-coordination platform into Azure-native microservices (.NET 8 Web API + Angular 18).</li>
-    <li>Designed FHIR R5-compliant REST APIs for interoperability across EMR, lab, and payer systems under HIPAA.</li>
-    <li>Enhanced performance by 60% through Redis caching, SQL query optimization, and EF Core projection patterns.</li>
-    <li>Automated CI/CD using Azure DevOps YAML pipelines and GitHub Actions with SonarQube quality gates.</li>
-    <li>Integrated Stripe and HealthPay for secure payment processing and 30% faster billing reconciliation.</li>
-    <li>Implemented observability via Serilog and Azure Application Insights for centralized diagnostics and alerting.</li>
-  </ul>
+**Cloud & DevOps**
+[cite_start]<span class="skill-tag">AWS (EC2, S3, Lambda)</span> <span class="skill-tag">Docker</span> <span class="skill-tag">Kubernetes</span> <span class="skill-tag">CI/CD</span> <span class="skill-tag">Microservices</span> 
 
-  <h3>HSBC — . NET Full Stack Developer (2021 – 2023)</h3>
-  <ul>
-    <li>Built a Compliance Automation Platform with .NET 6 Web API and React 18 to streamline KYC/AML processes.</li>
-    <li>Applied Onion Architecture and Clean Code principles to enforce maintainability and scalability.</li>
-    <li>Developed 25+ RESTful APIs for KYC onboarding, AML risk scoring, and case management using Swagger and OpenAPI.</li>
-    <li>Integrated OAuth2 and Azure Active Directory for SSO and role-based access management.</li>
-    <li>Implemented message queuing using Kafka and RabbitMQ for real-time transaction surveillance.</li>
-    <li>Optimized MongoDB aggregations for audit logging and achieved 45% faster data retrieval.</li>
-    <li>Configured Jenkins CI/CD with SonarQube gates to enforce code quality and automated deployments.</li>
-  </ul>
+**AI & Machine Learning**
+[cite_start]<span class="skill-tag">LLM Integration (OpenAI, LangChain)</span> <span class="skill-tag">Prompt Engineering</span> <span class="skill-tag">scikit-learn</span> 
 
-  <h3>IBM — IT Analyst / . NET Developer (2019 – 2020)</h3>
-  <ul>
-    <li>Modernized legacy ASP.NET MVC and WCF apps into .NET 6 services with async programming patterns.</li>
-    <li>Implemented Entity Framework and LINQ for efficient data access and business logic execution.</li>
-    <li>Optimized SQL stored procedures and indexes for audit logging and tracking modules.</li>
-    <li>Built and deployed AWS Lambda serverless functions for file processing and audit validation workflows.</li>
-    <li>Automated build and deployments via AWS Code Pipeline and Code Build for continuous integration.</li>
-    <li>Collaborated with cross-functional Agile teams to deliver data-driven public sector solutions on schedule.</li>
-  </ul>
+---
 
-  <h3>ECIT Hyderabad — .NET Intern (2018 – 2019)</h3>
-  <ul>
-    <li>Developed a session-based password authentication module in Java to enhance user security at login.</li>
-    <li>Collaborated with a small team to design and test dynamic web interfaces using Java Servlets and JSP.</li>
-    <li>Implemented encryption techniques and input validation for secure credential handling.</li>
-    <li>Learned software development lifecycle (SDLC) best practices and team coordination on real-world projects.</li>
-  </ul>
-</section>
+## Professional Experience
 
-</div>
+### **AI Software Integration Intern | PlaSiV INC**
+*Aug 2025 – Present | Chicago, IL* [cite: 86, 89]
+* [cite_start]Architected scalable, production-ready technical solutions using **microservices** and distributed systems[cite: 90].
+* [cite_start]Designed and implemented APIs using **Java Spring Boot and Node.js** to support high-scale business workflows[cite: 91].
+* [cite_start]Managed system deployments using **Kubernetes** and optimized **CI/CD pipelines** for increased release velocity[cite: 92].
+* [cite_start]Integrated **AI and Machine Learning models** into production applications to enhance system intelligence[cite: 93].
+
+### **Junior Web Developer | WynFluenz**
+*Sep 2021 – Jul 2023 | Hyderabad, India* [cite: 94, 96]
+* [cite_start]Engineered **RESTful services** and optimized data models to handle large-scale transactional data with high integrity[cite: 97].
+* [cite_start]Reduced system latency and improved performance through backend optimization and architectural best practices[cite: 99].
+* [cite_start]Developed comprehensive unit tests using **Jest and JUnit** to maintain >90% code coverage[cite: 100].
+
+### **IT Analyst | IBM**
+*Dec 2019 – Dec 2020 | [cite_start]Hyderabad, India* [cite: 109, 110, 111]
+* [cite_start]Resolved critical system incidents across **Unix and Windows** environments to improve service reliability[cite: 112].
+* [cite_start]Programmed **Python automation scripts** to detect log anomalies and trigger real-time alerts[cite: 113].
+* [cite_start]Managed 200+ enterprise user accounts, ensuring strict **data integrity and access control**[cite: 114].
+
+---
+
+## Education
+* **Master of Science in Computer Science** | [cite_start]Lewis University (GPA: 3.65) [cite: 80, 82]
+* **Bachelor of Technology in Computer Science** | [cite_start]Geethanjali College of Engineering [cite: 85]
