@@ -4,57 +4,56 @@ layout: default
 
 ## About Me
 
-I am a **Backend Software Engineer with over 5 years of industry experience**[cite: 5, 17]. [cite_start]My engineering philosophy centers on the idea that backend systems should be "invisible"—seamless, resilient, and highly available even under the heaviest loads[cite: 7].
+I am a **Backend Software Engineer with over 5 years of industry experience** dedicated to building the invisible architecture that powers modern web applications. My expertise lies in **Distributed Systems, Data Modeling, and Cloud Infrastructure**, with a focus on creating high-performance, maintainable systems that solve complex business challenges.
 
-[cite_start]Throughout my career, I have evolved from developing core Java services to architecting complex, cloud-native distributed systems[cite: 19, 47]. [cite_start]My current focus is at the intersection of **Systems Design and Artificial Intelligence**, where I explore how to integrate LLM capabilities into enterprise-level backend workflows[cite: 12, 52].
-
-### My Engineering Focus
-
-* [cite_start]**Scalable Architecture:** I specialize in microservices and distributed systems that handle high-volume transactional data[cite: 19, 26].
-* [cite_start]**Operational Excellence:** I am a strong advocate for automated CI/CD, comprehensive unit testing, and rigorous engineering standards[cite: 21, 29, 35].
-* [cite_start]**Intelligent Systems:** I am actively bridging the gap between traditional backend reliability and modern AI/ML integration[cite: 22, 52].
+I believe that great software isn't just about writing code that works—it's about creating systems that are resilient, maintainable, and built to evolve. Currently, I specialize in bridging the gap between intelligent automation and robust backend architecture by integrating AI/ML models into production workflows.
 
 ---
 
-## Technical Expertise
+## Technical Skills
 
-[cite_start]**Backend & APIs:** Java (Spring Boot), Node.js (Express), Python (FastAPI), REST, gRPC & GraphQL [cite: 52]
+**Backend & APIs:** Java (Spring Boot), Node.js (Express), Python (FastAPI), gRPC, GraphQL, REST
 
-[cite_start]**Cloud & Systems:** AWS (EC2, S3, Lambda), Docker, Kubernetes, CI/CD, Microservices [cite: 52]
+**Databases & Storage:** PostgreSQL, MySQL, MongoDB, SQL Server, Data Modeling
 
-[cite_start]**Data Management:** PostgreSQL, MySQL, MongoDB, SQL Server, Data Modeling [cite: 52]
+**Cloud & DevOps:** AWS (EC2, S3, Lambda), Docker, Kubernetes, CI/CD, Microservices
+
+**AI & Machine Learning:** LLM Integration (OpenAI, LangChain), Prompt Engineering, scikit-learn
 
 ---
 
-## Professional Journey
+## Professional Experience
 
-**AI Software Integration Intern | [cite_start]PlaSiV INC** [cite: 15]
-[cite_start]*Aug 2025 – Present* [cite: 18]
+**AI Software Integration Intern | PlaSiV INC**
+*Aug 2025 – Present*
 
-* [cite_start]Architected scalable, production-ready technical solutions using microservices and distributed systems[cite: 19].
-* Designed and implemented business-critical APIs using Java Spring Boot and Node.js[cite: 20].
-* [cite_start]Managed distributed system deployments using Kubernetes and optimized CI/CD pipelines[cite: 21].
+* Architected scalable, production-ready technical solutions using microservices and distributed systems.
+* Designed and implemented microservices-based APIs using Java Spring Boot and Node.js to support complex business workflows.
+* Managed distributed system deployments using Kubernetes and optimized CI/CD pipelines for increased release velocity.
+* Integrated AI and Machine Learning models into production applications to enhance system intelligence.
 
-**Web Developer | [cite_start]Wyn Fluenz** [cite: 23]
-[cite_start]*Sep 2021 – Jul 2023* [cite: 25]
+**Web Developer | WynFluenz**
+*Sep 2021 – Jul 2023*
 
-* [cite_start]Engineered RESTful services optimized for high-integrity transactional data[cite: 26].
-* Improved performance by 15% through strategic code-splitting and backend optimization[cite: 27, 28].
-* [cite_start]Formulated comprehensive unit tests using Jest and JUnit to maintain high code coverage[cite: 29].
+* Engineered RESTful services and optimized data models to handle large-scale transactional data with high integrity.
+* Optimized platform performance by implementing code-splitting and lazy loading, reducing load times by 15%.
+* Reduced system latency and improved performance through backend optimization and architectural best practices.
+* Formulated comprehensive unit tests using Jest and JUnit to maintain high code coverage standards.
 
-**IT Analyst / Java Developer | [cite_start]IBM** [cite: 38]
-[cite_start]*Dec 2019 – Dec 2020* [cite: 39, 40]
+**IT Analyst / Java Developer | IBM**
+*Dec 2019 – Dec 2020*
 
-* [cite_start]Resolved critical system incidents across Unix and Windows to improve service reliability[cite: 41].
-* Programmed Python automation scripts for anomaly detection and real-time alerts[cite: 42].
-* [cite_start]Mentored new analysts on automation best practices to accelerate onboarding[cite: 44].
+* Resolved critical system incidents across Unix and Windows environments to improve service reliability.
+* Programmed Python automation scripts to detect log anomalies and trigger real-time alerts.
+* Managed 200+ enterprise user accounts while ensuring strict data integrity and access control.
+* Mentored new analysts on automation best practices, accelerating the onboarding process.
 
 ---
 
 ## Education
 
-* **Master of Science, Computer Science** | [cite_start]Lewis University (GPA: 3.65) [cite: 9, 11]
-* **Bachelor of Technology, Computer Science** | Geethanjali College of Engineering [cite: 14]
+* **Master of Science, Computer Science** | Lewis University
+* **Bachelor of Technology, Computer Science** | Geethanjali College of Engineering
 
 ---
 
